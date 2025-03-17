@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Meta -->
+		<meta name="description" content="Responsive Bootstrap 5 Admin Dashboards" />
+		<meta name="author" content="Bootstrap Gallery" />
+		<link rel="canonical" href="https://www.bootstrap.gallery/">
+		<meta property="og:url" content="https://www.bootstrap.gallery">
+		<meta property="og:title" content="Admin Templates - Dashboard Templates | Bootstrap Gallery">
+		<meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+		<meta property="og:type" content="Website">
+		<meta property="og:site_name" content="Bootstrap Gallery">
+		<link rel="shortcut icon" href="{% static 'assets/images/logo.png' %}" />
+
+		<!-- Title -->
+		<title>Modification d'article</title>
+
+		<link rel="stylesheet" href="{% static 'assets/css/animate.css' %}" />
+
+		<!-- Icomoon Font Icons css -->
+		<link rel="stylesheet" href="{% static 'assets/fonts/icomoon/icomoon.css' %}" />
+
+		<!-- Main css -->
+		<link rel="stylesheet" href="{% static 'assets/css/main.min.css' %}" />
+	</head>
+
+	<body class="login-container">
+
+
+		<!-- Login box start -->
+		<div class="container">
+			<form method='post'>
+			{% csrf_token %}
+				<div class="login-box">
+					<div class="login-blocks-img"></div>
+					<div class="login-form">
+						<a href="#" class="login-logo">
+							<img src="{% static 'assets/images/logo.png' %}" alt="piergyDeveloppement" width="250" height="100" />
+						</a>
+						
+						<div class="login-welcome">
+						<h4>Modifié une <i>publication</i> en moins de 2 minutes.</4>
+						</div>
+						<div class="login-form-block">
+							<label class="login-form-label">Titre</label>
+							
+							<p class="login-form-control">TITRE</p>
+							
+						</div>
+						<div class="login-form-block">
+							<label class="login-form-label">Categorie</label>
+						
+							<p class="login-form-control">CATEGORIE</p>
+						
+						</div>
+						<div class="login-form-block">
+							<label class="login-form-label">Description</label>
+                            
+							<p class="login-form-control">DESCRIPTION</p>
+							
+						</div>
+						<div class="login-form-actions">
+							<button type="submit" class="btn">
+								<span class="icon"> <i class="icon-login"></i> </span> Valider
+							</button>
+							<br/>
+						</div> <br/>																																		
+						</div>
+				</div>
+				
+			</form>
+			
+		</div>
+		
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+
+
+		<script src="{% static 'assets/js/main.js' %}"></script>
+	</body>
+
+</html>

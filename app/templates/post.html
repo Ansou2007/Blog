@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+
+{% block  recherche %} 
+            {% include 'zoneRecherche.html'%}
+{% endblock %}
+
+{% block article  %} 
+{% if messages %}
+	{% for message in messages %}
+		<h5 class="alert alert-danger" role="alert">
+			{{ message }}
+		</h5>
+	{% endfor %}
+{% endif %}
+            {% include 'article.html'%}
+{% endblock %}
+
+{% block pagination %} 
+    {% include 'pagination.html'%}
+{% endblock %}

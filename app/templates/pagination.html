@@ -1,0 +1,42 @@
+{% block pagination %}
+    <div class="row tm-row tm-mt-100 tm-mb-75">
+        <div class="tm-paging-wrapper">
+            <nav class="tm-paging-nav d-inline-block">
+                {% if is_paginated %}
+                    <ul>
+                        {% if page_obj.has_previous %}
+                            <li class="tm-paging-item">
+                                <a href="?page={{ page_obj.previous_page_number }}" tabindex="-1"
+                                   class="mb-2 tm-btn tm-btn-primary tm-prev-next tm-mr-20">Précédent</a>
+                            </li>
+                        {% endif %}
+
+                        {% if page_obj.has_previous %}
+                            <li class="tm-paging-item">
+                                <a href="?page={{ page_obj.previous_page_number }}"
+                                   class="mb-2 tm-btn tm-paging-link">{{ page_obj.previous_page_number }}</a>
+                            </li>
+                        {% endif %}
+
+                        <li class="tm-paging-item active">
+                            <a href="#" class="mb-2 tm-btn tm-paging-link">{{ page_obj.number }}</a>
+                        </li>
+
+                        {% if page_obj.has_next %}
+                            <li class="tm-paging-item">
+                                <a href="?page={{ page_obj.next_page_number }}"
+                                   class="mb-2 tm-btn tm-paging-link">{{ page_obj.next_page_number }}</a>
+                            </li>
+                        {% endif %}
+
+                        {% if page_obj.has_next %}
+                            <li class="tm-paging-item">
+                                <a href="?page={{ page_obj.next_page_number }}" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Suivant</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                {% endif %}
+            </nav>
+        </div>
+    </div>
+{% endblock %}

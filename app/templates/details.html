@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block recherche %}
+    <h2 class="tm-pt-30 tm-color-primary tm-post-title">Détail de la publication</h2>
+{% endblock %}
+
+{% block corps %}
+<div class="row tm-row">
+    <div class="col-12">
+        <hr class="tm-hr-primary tm-mb-55">
+        {% if article.image %}
+            <img src="{{ article.image.url }}" alt="{{ article.titre }}" class="tm-mb-40" width="954" height="535">
+        {% else %}
+            <img src="{% static 'img/default.jpg' %}" alt="Image par défaut" class="tm-mb-40" width="954" height="535">
+        {% endif %}
+    </div>
+</div>
+
+<div class="row tm-row">
+    <div class="col-lg-8 tm-post-col">
+        <div class="tm-post-full">
+            <div class="mb-4">
+                <h2 class="pt-2 tm-color-primary tm-post-title">{{ article.titre }}</h2>
+
+                <p>{{ article.contenu }}</p>
+                <hr>
+                 <p class="tm-mb-40">Publié le {{ article.date_publication|date:"d M Y" }} par
+                    <b><span>{{ article.auteur }}</span></b>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+    <div class="d-flex justify-content-end">
+        <a href="{% url 'article_edit' article.pk %}" class="btn btn-warning mr-2">Modifier</a>
+        <a href="{% url 'article_delete' article.pk %}" class="btn btn-danger">Supprimer</a>
+    </div>
+{% endblock %}

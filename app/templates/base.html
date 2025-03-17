@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog professionnel</title>
+	<link rel="stylesheet" href=" {% static 'fontawesome/css/all.min.css' %}">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/templatemo-xtra-blog.css' %}" rel="stylesheet">
+    <link rel="shortcut icon" href="{% static 'assets/images/logo.png' %}"/>
+    
+    <link rel="stylesheet" href="{% static 'font/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'font/bootstrap-icons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'font/bootstrap-icons.min.scss' %}">
+
+</head>
+<body>
+        {% comment %} header la page à gauche "ou le menu" {% endcomment %}
+    
+    {% block header %} 
+    {% include 'header.html'%}
+     {% endblock %}
+
+    <div class="container-fluid">
+        <main class="tm-main">
+          
+          
+          
+          
+        {% block recherche %} 
+            
+        {% endblock %}
+          
+          
+          
+          
+          
+          
+
+ {% block corps %} 
+ 
+        
+       
+            <div class="row tm-row">
+       {% comment %} contenue  {% endcomment %}
+         {% block article %} 
+        
+        {% endblock %}
+                        
+   {% endblock %}         
+           </div>
+    
+            {% block pagination %}
+           
+             {% endblock %}
+                        
+            {% block footer %} 
+            {% include 'footer.html'%}
+            {% endblock %}
+
+        </main>
+    </div>
+    <script src=" {% static 'js/jquery.min.js' %}"></script>
+    <script src=" {% static 'js/templatemo-script.js' %}"></script>
+</body>
+</html>

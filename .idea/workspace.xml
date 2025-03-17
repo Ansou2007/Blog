@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc013b19-9348-420c-8e3f-2e4387cdbf6b" name="Changes" comment="Module Delete">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_variables-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_color-bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_focus-ring.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_icon-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_stacks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/helpers/_vr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_color-mode.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/jasmine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/mixins/_color-modes.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/mixins/_media-query-color-mode-full.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/mixins/_utilities.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/sass-true/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/sass-true/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/tests/utilities/_api.test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/icomoon/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/lato/Lato-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/merriweather/Merriweather-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/fonts/rubik-mono/RubikMonoOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/award.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/blocks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/blocks2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cancel-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/card-bg-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/card-bg-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cards/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cards/diners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cards/discover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cards/jcb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cards/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/cards/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/download-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/download-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/error-screen/astronaut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/error-screen/full-moon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/error-screen/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/error-screen/rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/error-screen/stars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/xk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/1x1/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/xk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/flags/4x3/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/food/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/food/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/food/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/food/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/food/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/google-drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/graphcool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/header-profile-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/behance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/bitbucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/dropbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/evernote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/social/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/star-selected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/images/user6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/coming-soon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/apexcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/apexcharts.min.old.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home/earningsGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home/notificationsGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home/ordersGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home/signupsGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home/sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home2/byDeviceGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home2/earningsGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home2/salesGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home2/sparklineGraphs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home3/notificationsGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home3/ordersGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home3/qtrTargetGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home3/revenueGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/home3/signupsGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/profile/byChannelGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/profile/byDeviceGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/profile/ordersGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/profile/revenue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/profile/targets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/reports/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/reports/revenue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/reports/sales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/reports/sales2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/custom/reports/sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/area/basic-area-graph-spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/area/basic-area-graph-stacked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/area/basic-area-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/bar/basic-bar-graph-grouped.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/bar/basic-bar-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/bar/basic-bar-negative-values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/bar/basic-bar-stack-graph-full-width.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/bar/basic-bar-stack-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/bubble/basic-bubble-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/candlestick/basic-candlestick-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/column/basic-column-graph-datalables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/column/basic-column-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/column/basic-column-stack-graph-fullheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/column/basic-column-stack-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/line/basic-line-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/line/line-with-data-labels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/line/stepline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/mixed/line-area-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/mixed/line-column-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/mixed/line-scatter-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/mixed/multiple-yaxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-donut-graph-gradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-donut-graph-monochrome-gradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-donut-graph-monochrome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-donut-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-pie-graph-gradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-pie-graph-monochrome-gradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-pie-graph-monochrome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/pie/basic-pie-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/radial/basic-radial-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/radial/basic-radial-graph2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/radial/basic-radial-graph3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/apex/examples/timeline/timeline-graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/bs-select/bs-select-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/bs-select/bs-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/bs-select/bs-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/background-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/custom-schedule-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/daygrid-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/draggable-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/google-view-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/list-view-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/custom/selectable-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/calendar/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/circliful/circliful.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/circliful/circliful.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/datatables/custom/custom-datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/datatables/custom/fixedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/datatables/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/datatables/dataTables.bs5-custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/datatables/dataTables.bs5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/datatables/dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/daterange/custom-daterange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/daterange/daterange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/daterange/daterange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/dropzone/dropzone-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/dropzone/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/dropzone/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/input-masks/cleave-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/input-masks/cleave-phone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/input-masks/cleave.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/africa-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/au-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/custom-denmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/map-africa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/map-europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/map-usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/map-usa2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/regions-selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/resions-with-labels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/world-map-gdp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/custom/world-map-markers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/de-merc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/dk-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/europe-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/gdp-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/jquery-jvectormap-2.0.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/us_aea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/jvectormap/world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/areaChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/barColors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/barNoAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/dayData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/donutColors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/donutFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/home-bar-revenue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/home-orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/morrisBarChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/negativeValues.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/stackedBarChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/custom/xLabelsDiagonally.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/morris/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/overlay-scroll/OverlayScrollbars.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/overlay-scroll/custom-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/particles/particles-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/particles/particles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/particles/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/rating/raty-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/rating/raty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/summernote/fonts/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/summernote/fonts/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/summernote/fonts/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/summernote/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/vendor/summernote/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/css/templatemo-xtra-blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/font/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/font/bootstrap-icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/font/bootstrap-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/font/bootstrap-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/font/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/font/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/about-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/about-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/about-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/about-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/about-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/comment-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/comment-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/img-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/img-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/js/templatemo-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/modifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/postRecherche.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/resultat_recheche.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/supprimer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/zoneRecherche.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles_images/carte_ziguinchor.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles_images/logo_santeyalla.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles_images/max_8D38F549-0603-40C1-88BF-E_5f43d41c17e73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles_images/moto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles_images/signature.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2uPg4MTtUBtFpZOlESYIKWqbiEQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django Server.Blog.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Blog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc013b19-9348-420c-8e3f-2e4387cdbf6b" name="Changes" comment="" />
+      <created>1742155431426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742155431426</updated>
+      <workItem from="1742155432430" duration="19945000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1742170996685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742170996685</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Module Delete">
+      <option name="closed" value="true" />
+      <created>1742179221923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742179221923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Module Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module Delete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Blog/urls.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Blog/urls.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/app/templates/supprimer.html</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/app/templates/supprimer.html</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
