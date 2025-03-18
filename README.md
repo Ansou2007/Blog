@@ -2,7 +2,7 @@
 
 
 python -m venv venv
-source venv/bin/activate  # Sur Linux/Mac
+source venv/bin/activate  # Sur Linux/Mac <br>
 venv\Scripts\activate  # Sur Windows
 
 
@@ -18,6 +18,9 @@ venv\Scripts\activate  # Sur Windows
 
  python manage.py createsuperuser
 
+
+# 4. Lancer l'application
+ python manage.py runserver
 
 🏠 Accueil
 
