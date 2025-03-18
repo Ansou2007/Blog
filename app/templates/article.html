@@ -6,7 +6,7 @@
             <a href="{% url 'article_detail' article.pk %}" class="effect-lily tm-post-link tm-pt-60">
                 <div class="tm-post-link-inner">
                     {% if article.image %}
-                        <img class="card-img-top" src="{{ article.image.url }}" alt="Image de {{ article.titre }}"  style="width:200px;height:200px;float:center">
+                        <img class="card-img-top" src="{{ article.image.url }}" alt="Image de {{ article.titre }}"  style="width:300px;height:300px;float:center">
                     {% else %}
                         <img class="card-img-top" src="{% static 'img/default.jpg' %}" alt="Image par défaut">
                     {% endif %}
