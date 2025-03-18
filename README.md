@@ -26,6 +26,9 @@ venv\Scripts\activate  # Sur Windows
 
 ![Texte alternatif](documentation/accueil.png)
 
+🧩 Creer
+! [Creer](documentation/creer.png)
+
 
 📄 Détail
 ![Texte alternatif](documentation/detail.png)
@@ -37,3 +40,6 @@ venv\Scripts\activate  # Sur Windows
 
 🗑️ Supprimer
 ![Texte alternatif](documentation/supprimer.png)
+
+🧑‍🧒‍🧒 Dashboard Administrateur
+![Texte alternatif](documentation/admin.png)
