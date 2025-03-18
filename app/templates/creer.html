@@ -7,12 +7,12 @@
         <div class="col-md-8">
             <div class="card shadow-lg border-0">
                 <div class="card-header bg-primary text-white text-center">
-                    <h3>Modifier l'Article</h3>
+                    <h3>Créer un Nouvel Article</h3>
                 </div>
                 <div class="card-body">
                     <form method="post" enctype="multipart/form-data">
                         {% csrf_token %}
-                        
+
                         <div class="mb-3">
                             <label for="id_titre" class="form-label"><strong>Titre de l'article</strong></label>
                             {{ form.titre }}
@@ -33,8 +33,8 @@
                         </div>
 
                         <div class="d-flex justify-content-between">
-                            <a href="{% url 'article_detail' article.pk %}" class="btn btn-secondary">Annuler</a>
-                            <button type="submit" class="btn btn-success">Enregistrer</button>
+                            <a href="{% url 'article_list' %}" class="btn btn-secondary">Annuler</a>
+                            <button type="submit" class="btn btn-success">Publier</button>
                         </div>
                     </form>
                 </div>
@@ -43,3 +43,4 @@
     </div>
 </div>
 {% endblock %}
+

@@ -21,7 +21,7 @@ class ArticleDetailView(DetailView):
 class ArticleCreateView(CreateView):
     model = Article
     fields = ['titre', 'contenu', 'auteur', 'image']
-    template_name = "blog/article_form.html"
+    template_name = "creer.html"
     success_url = reverse_lazy('article_list')
 
 # Modification Article

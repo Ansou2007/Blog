@@ -11,14 +11,14 @@
                         <img class="card-img-top" src="{% static 'img/default.jpg' %}" alt="Image par défaut">
                     {% endif %}
                 </div>
-                <span class="position-absolute tm-new-badge">New</span>
+                <span class="position-absolute tm-new-badge">Nouveauté</span>
                 <h2 class="tm-pt-30 tm-color-primary tm-post-title">{{ article.titre }}</h2>
             </a>
             <p class="tm-pt-30">
                {{ article.contenu|truncatewords:20 }}...
             </p>
             <div class="d-flex justify-content-between tm-pt-45">
-                <span class="tm-color-primary">Auteur: {{ article.auteur.username }} </span>
+                <span class="tm-color-primary">Auteur: {{ article.auteur }} </span>
                 <span class="tm-color-primary">Publication: {{ article.date_publication|date:"d M Y" }}</span>
             </div>
             <a href="{% url 'article_detail' article.pk %}" class="tm-btn tm-btn-primary mt-3">Lire la suite</a>

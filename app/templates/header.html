@@ -7,16 +7,16 @@
             <div class="tm-site-header">
                 <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div> 
                 <a href="#" class="tm-nav-link">           
-                <h4 class="text-center">piergyDeveloppement Blog</h4>
+                <h4 class="text-center">Sama Blog</h4>
                 </a>
             </div>
             <nav class="tm-nav" id="tm-nav">            
                 <ul>
-                    <li class="tm-nav-item active"><a href="" class="tm-nav-link">
+                    <li class="tm-nav-item active"><a href="{% url 'article_list' %}" class="tm-nav-link">
                         <i class="fas fa-home"></i>
                         Blog
                     </a></li>
-                    <li class="tm-nav-item"><a href="#" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="{% url 'article_new' %}" class="tm-nav-link">
                         <i class="fas fa-pen"></i>
                         Créez Un Article
                     </a></li>
@@ -24,10 +24,7 @@
                         <i class="fas fa-users"></i>
                          Mon Profile
                     </a></li>
-                    <li class="tm-nav-item"><a href="#" class="tm-nav-link">
-                        <i class="far fa-comments"></i>
-                        Tableau De Bord
-                    </a></li>
+                    
                 </ul>
             </nav>
 
