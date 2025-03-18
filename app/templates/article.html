@@ -6,7 +6,7 @@
             <a href="{% url 'article_detail' article.pk %}" class="effect-lily tm-post-link tm-pt-60">
                 <div class="tm-post-link-inner">
                     {% if article.image %}
-                        <img class="card-img-top" src="{{ article.image.url }}" alt="Image de {{ article.titre }}">
+                        <img class="card-img-top" src="{{ article.image.url }}" alt="Image de {{ article.titre }}"  style="width:200px;height:200px;float:center">
                     {% else %}
                         <img class="card-img-top" src="{% static 'img/default.jpg' %}" alt="Image par défaut">
                     {% endif %}
@@ -21,7 +21,7 @@
                 <span class="tm-color-primary">Auteur: {{ article.auteur }} </span>
                 <span class="tm-color-primary">Publication: {{ article.date_publication|date:"d M Y" }}</span>
             </div>
-            <a href="{% url 'article_detail' article.pk %}" class="tm-btn tm-btn-primary mt-3">Lire la suite</a>
+            <a href="{% url 'article_detail' article.pk %}" class="tm-btn tm-btn-primary mt-3">Détail</a>
             <hr>
         </article>
     {% endfor %}
