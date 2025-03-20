@@ -16,11 +16,19 @@
                         <i class="fas fa-home"></i>
                         Blog
                     </a></li>
-                    <li class="tm-nav-item"><a href="{% url 'article_new' %}" class="tm-nav-link">
+
+                    {% comment %} <li class="tm-nav-item"><a href="{% url 'article_new' %}" class="tm-nav-link">
                         <i class="fas fa-pen"></i>
                         Créez Un Article
-                    </a></li>
-                    
+                    </a></li> {% endcomment %}
+                    {% if request.user.is_authenticated %}
+                    <li class="tm-nav-item {% if request.resolver_match.url_name == 'article_new' %}active{% endif %}">
+                        <a href="{% url 'article_new' %}" class="tm-nav-link">
+                            <i class="fas fa-pen"></i>
+                            Créez Un Article
+                        </a>
+                    </li>
+                {% endif %}
                     
                 </ul>
             </nav>

@@ -34,8 +34,15 @@
     </div>
 
 </div>
+
+{% if request.user == article.auteur or request.user.is_superuser %}
     <div class="d-flex justify-content-end">
         <a href="{% url 'article_edit' article.pk %}" class="btn btn-warning mr-2">Modifier</a>
         <a href="{% url 'article_delete' article.pk %}" class="btn btn-danger">Supprimer</a>
     </div>
+{% endif %}
+    {% comment %} <div class="d-flex justify-content-end">
+        <a href="{% url 'article_edit' article.pk %}" class="btn btn-warning mr-2">Modifier</a>
+        <a href="{% url 'article_delete' article.pk %}" class="btn btn-danger">Supprimer</a>
+    </div> {% endcomment %}
 {% endblock %}

@@ -26,6 +26,12 @@ venv\Scripts\activate  # Sur Windows
 
 ![Texte alternatif](documentation/accueil.png)
 
+🔐 Login
+![Texte alternatif](documentation/login.png)
+
+📓 Utilisateur Connecté
+![Texte alternatif](documentation/connecte.png)
+
 🧩 Creer
 ![Texte alternatif](documentation/creer.png)
 
