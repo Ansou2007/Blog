@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Meta -->
+		<meta name="description" content="Responsive Bootstrap 5 Admin Dashboards" />
+		<meta name="author" content="Bootstrap Gallery" />
+		<link rel="canonical" href="https://www.bootstrap.gallery/">
+		<meta property="og:url" content="https://www.bootstrap.gallery">
+		<meta property="og:title" content="Admin Templates - Dashboard Templates | Bootstrap Gallery">
+		<meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+		<meta property="og:type" content="Website">
+		<meta property="og:site_name" content="Bootstrap Gallery">
+		<link rel="shortcut icon" href="{% static 'assets/logo.png' %}" />
+
+		<!-- Title -->
+		<title>Création de compte</title>
+
+		<link rel="stylesheet" href="{% static 'assets/css/animate.css' %}" />
+
+		<!-- Icomoon Font Icons css -->
+		<link rel="stylesheet" href="{% static 'assets/fonts/icomoon/icomoon.css' %}" />
+
+		<!-- Main css -->
+		<link rel="stylesheet" href="{% static 'assets/css/main.min.css' %}" />
+	</head>
+
+	<body class="login-container">
+
+
+		<!-- Login box start -->
+		<div class="container">
+		
+			<form method='post' enctype="multipart/form-data">
+			{% if messages %}
+				{% for message in messages %}
+					<h5 class="alert alert-danger" role="alert">
+						{{ message }}
+					</h5>
+				{% endfor %}
+			{% endif %}
+			{% csrf_token %}
+				<div class="login-box">
+					<div class="login-blocks-img"></div>
+					<div class="login-form">
+						<a href="#" class="login-logo">
+							<img src="{% static 'assets/logo.png' %}" alt="piergyDeveloppement logo" />
+						</a>
+						<div class="login-welcome">
+							Bienvenue, Créez un compte<i>Cher(e) ami(e)</i>, moins de 2 minutes.
+						</div>
+						<div class="login-form-block">
+							<label class="login-form-label">Nom d'utilisateur</label>
+							<input type="text" class="login-form-control" name="username" required/>
+						</div>
+						<div class="login-form-block">
+							<label class="login-form-label">Email</label>
+							<input type="mail" class="login-form-control" name="email" required />
+						</div>
+						<div class="login-form-block">
+							<label class="login-form-label">Mot de passe</label>
+							<input type="password" class="login-form-control" name="password" required />
+						</div>
+						
+						<div class="login-form-block">
+							<label class="login-form-label">Confirmer</label>
+							<input type="password" class="login-form-control" name="password_confirm" required />
+						</div>
+						<div class="login-form-actions">
+							<button type="submit" class="btn">
+								<span class="icon"> <i class="icon-login"></i> </span> Valider
+							</button>
+							<br />
+						</div>
+
+						<div class="login-form-footer">
+							<div class="additional-link">
+								Vous avez déjà un compte ?
+								<a href="{% url 'login' %}" class="btn"> Se connecter</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+
+
+		<script src="{% static 'assets/js/main.js' %}"></script>
+	</body>
+
+</html>

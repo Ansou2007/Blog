@@ -27,7 +27,7 @@ venv\Scripts\activate  # Sur Windows
 ![Texte alternatif](documentation/accueil.png)
 
 🧩 Creer
-! [Creer](documentation/creer.png)
+![Texte alternatif](documentation/creer.png)
 
 
 📄 Détail
