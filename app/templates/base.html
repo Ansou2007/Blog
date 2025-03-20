@@ -42,8 +42,11 @@
            {% endblock %}
         </div>
 
-        {% block pagination %} {% endblock %} {% block footer %} {% include
-        'footer.html'%} {% endblock %}
+        {% block pagination %} 
+        {% endblock %}
+         {% block footer %}
+          {% include 'footer.html'%} 
+        {% endblock %}
       </main>
     </div>
     <script src=" {% static 'js/jquery.min.js' %}"></script>
