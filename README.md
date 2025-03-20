@@ -20,7 +20,7 @@ python -m pip install Pillow
  python manage.py migrate
 
  # 2-1 Credentiel
-  username: michel
+  username: michel <br>
   pasword: passer123
 
 # 3. Creer un super utilisateur
